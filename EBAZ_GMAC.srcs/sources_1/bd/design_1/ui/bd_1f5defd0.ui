@@ -1,0 +1,50 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port ENET1_GMII_RX_DV_0 -pg 1 -y 100 -defaultsOSRD
+preplace port ENET1_GMII_TX_CLK_0 -pg 1 -y 120 -defaultsOSRD
+preplace port ENET0_GMII_TX_CLK_0 -pg 1 -y 60 -defaultsOSRD
+preplace port DDR_0 -pg 1 -y 560 -defaultsOSRD
+preplace port MDIO_ETHERNET_0_0 -pg 1 -y 80 -defaultsOSRD
+preplace port ENET0_GMII_RX_CLK_0 -pg 1 -y 20 -defaultsOSRD
+preplace port ENET1_GMII_RX_CLK_0 -pg 1 -y 80 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -y 60 -defaultsOSRD
+preplace port ENET0_GMII_RX_DV_0 -pg 1 -y 40 -defaultsOSRD
+preplace port MDIO_ETHERNET_1_0 -pg 1 -y 100 -defaultsOSRD
+preplace portBus enet1_gmii_rxd -pg 1 -y 140 -defaultsOSRD
+preplace portBus enet0_gmii_rxd -pg 1 -y 140 -defaultsOSRD
+preplace portBus enet1_gmii_txd -pg 1 -y 160 -defaultsOSRD
+preplace portBus enet0_gmii_txd -pg 1 -y 120 -defaultsOSRD
+preplace portBus ENET1_GMII_TX_EN_0 -pg 1 -y 40 -defaultsOSRD
+preplace portBus ENET0_GMII_TX_EN_0 -pg 1 -y 20 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 1 -y 280 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 1 -y 380 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 680 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 1 630J
+preplace netloc ENET0_GMII_TX_CLK_0_1 1 0 2 -60J 960 510
+preplace netloc ENET0_GMII_RX_DV_0_1 1 0 2 -40J 950 520
+preplace netloc ENET1_GMII_TX_CLK_0_1 1 0 2 -90J 990 480
+preplace netloc ENET1_GMII_RX_DV_0_1 1 0 2 -80J 980 490
+preplace netloc ENET1_GMII_RX_CLK_0_1 1 0 2 -70J 970 500
+preplace netloc xlconcat_1_dout 1 1 1 560
+preplace netloc processing_system7_0_ENET1_GMII_TX_EN 1 1 1 570
+preplace netloc xlconcat_3_dout 1 1 1 590
+preplace netloc processing_system7_0_ENET0_GMII_TX_EN 1 1 1 550
+preplace netloc processing_system7_0_MDIO_ETHERNET_0 1 1 1 580
+preplace netloc xlconcat_0_dout 1 1 1 540
+preplace netloc processing_system7_0_MDIO_ETHERNET_1 1 1 1 620
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 610
+preplace netloc processing_system7_0_ENET1_GMII_TXD 1 0 2 -10 1020 550
+preplace netloc In0_0_1 1 0 1 -50
+preplace netloc ENET0_GMII_RX_CLK_0_1 1 0 2 -30J 940 530
+preplace netloc processing_system7_0_ENET0_GMII_TXD 1 0 2 -20 1010 560
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 0 1030 540
+preplace netloc Net 1 0 2 10 1000 470
+preplace netloc xlconcat_2_dout 1 1 1 600
+levelinfo -pg 1 -110 240 660 -top 0 -bot 1040
+"
+}
+
